@@ -45,8 +45,8 @@
 export default {
   data() {
     return {
-      text1: "AVG(balance_real)\nvar = 123", // Initial text for field 1
-      text2: "SUM(revenue)\nvalue = 456", // Initial text for field 2
+      text1: "balance_real=Æ$$.5131Æ\nAVG(balance_real)", // Initial text for field 1
+      text2: "revenue=123\nSUM(revenue)", // Initial text for field 2
       selectedText: "", // Holds the selected text
       clipboard: "", // Simulates the clipboard for demo purposes
       activeTextArea: null, // Keeps track of which textarea is active
