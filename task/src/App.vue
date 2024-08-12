@@ -103,9 +103,7 @@ export default {
       if (this.appendMode2) {
         this.appendToTextArea("textArea2");
       }
-      if (!this.appendMode1 && !this.appendMode2) {
-        this.copyToClipboard();
-      }
+      this.copyToClipboard();
     },
     handleKeydown(event, refName) {
       // Check if Ctrl+C or Command+C is pressed
